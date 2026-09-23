@@ -13,8 +13,7 @@ A server cannot rely on a dynamic (DHCP-assigned) IP address. Since this machine
 
 In Windows, we navigated to **IPv4 Properties** via `ncpa.cpl` (Network Connections) and assigned the following static values:
 
-<img width="395" height="452" alt="image" src="https://github.com/user-attachments/assets/816d5a27-7b70-45b7-8e4c-76534d5abd4d" />
-
+![IPv4 Settings](../images/ipv4-settings.png)
 ---
 
 ## 💡 Concepts & Quick Explanations
