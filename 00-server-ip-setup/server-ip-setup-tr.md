@@ -13,7 +13,7 @@ Bir sunucunun IP adresi dinamik (DHCP ile otomatik değişen) olamaz. Çünkü b
 
 Windows'ta `ncpa.cpl` (Ağ Bağlantıları) üzerinden **IPv4 Properties** ekranına girerek aşağıdaki sabit değerleri atadık:
 
-<img width="397" height="453" alt="image" src="https://github.com/user-attachments/assets/bd4f3642-62fa-4e77-bc55-f9b5ad9bf26a" />
+![IPv4 Settings](../images/ipv4-settings.png)
 
 
 ---
