@@ -1,6 +1,8 @@
 # Active Directory Guide
 
-> *Notes, walkthroughs, TikTok clips, and scripts from my windows server 2022 active directory setup.*
+[TR] [Türkçe README için buraya tıklayın](README-TR.md)
+
+> *Notes, walkthroughs, TikTok clips, and scripts from my Windows Server 2022 Active Directory setup.*
 
 ---
 
@@ -13,7 +15,7 @@ This repo is my open notebook where I share:
 ---
 
 ## 🧪 Current Lab Setup
-- **Hypervisor:** VBox 
+- **Hypervisor:** VirtualBox
 - **Domain Controller:** Windows Server 2022 (`DC01`)
 - **Domain:** `medipolis.local`
 - **Clients:** Windows 10/11 (`CLIENT01`)
@@ -22,25 +24,20 @@ This repo is my open notebook where I share:
 
 ## 📚 Lab Notes & Progress
 
-| Topic | Notes | TikTok Clip |
+| Topic | Notes (ENG / TR) | TikTok Clip |
 | :--- | :--- | :--- |
-| **01. Server Setup** | [Network & Static IP Config](./01-windows-server-2022/02-network-configuration.md) | [Watch Clip 🎬](https://www.tiktok.com/@cozyxss) |
-| **02. Active Directory** | *Installing AD DS & DNS (Work in progress...)* | Coming soon |
-| **03. Client Domain Join** | *Joining Windows 10/11 to Domain* | Coming soon |
-| **04. Users & OUs** | *Setting up users, groups, and permissions* | Coming soon |
-| **05. Group Policy** | *Configuring GPOs and security rules* | Coming soon |
+| **00. Server IP Setup** | [English](./00-server-ip-setup/server-ip-setup-eng.md) / [Türkçe](./00-server-ip-setup/server-ip-setup-tr.md) | [Watch Clip 🎬](https://www.tiktok.com/@cozyxss) |
+| **01. Active Directory** | *Installing AD DS & DNS (Work in progress...)* | Coming soon |
+| **02. Client Domain Join** | *Joining Windows 10/11 to Domain* | Coming soon |
+| **03. Users & OUs** | *Setting up users, groups, and permissions* | Coming soon |
+| **04. Group Policy** | *Configuring GPOs and security rules* | Coming soon |
 
 ---
 
 ## ⚡ PowerShell & Automation *(Planned)*
 
-Once the basic lab is up, I'll be adding custom PowerShell scripts here to automate daily AD tasks:
-<!---
-- 👤 **Bulk User Provisioning:** Creating multiple test users from a CSV file.
-- 🔒 **Basic AD Audit:** Quick script to list inactive accounts and admin rights.
+Once the basic lab is up, I'll be adding custom PowerShell scripts here to automate daily AD tasks.
 
-*(Scripts will live in the [`/scripts`](./scripts/) folder).*
--->
 ---
 
 ## 🌐 Find Me Around
