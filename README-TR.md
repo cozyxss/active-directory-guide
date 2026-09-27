@@ -44,4 +44,4 @@ Temel lab tamamlandıktan sonra günlük AD işlerini otomatikleştirmek için g
 
 - 🎵 **TikTok:** [tiktok.com/@cozyxss](https://www.tiktok.com/@cozyxss) (Kısa ders notları ve videolar)
 - ✍️ **Medium:** [medium.com/@cozyxss](https://medium.com/@cozyxss) (Detaylı proje rehberleri)
-- 💼 **LinkedIn:** [linkedin.com/in/cozyxss](https://linkedin.com/in/cozyxss) (Kariyer ve biten projeler)
+- 💼 **LinkedIn:** [linkedin.com/in/cozyxss](https://linkedin.com/in/bbetulkaya) (Kariyer ve biten projeler)
