@@ -24,14 +24,23 @@ This repo is my open notebook where I share:
 
 ## 📚 Lab Notes & Progress
 
-| Topic | Notes (ENG / TR) | TikTok Clip |
-| :--- | :--- | :--- |
-| **00. Server IP Setup** | [English](./00-server-ip-setup/server-ip-setup-eng.md) / [Türkçe](./00-server-ip-setup/server-ip-setup-tr.md) | [Watch Clip 🎬](https://www.tiktok.com/@cozyxss) |
-| **01. Active Directory** | *Installing AD DS & DNS (Work in progress...)* | Coming soon |
-| **02. Client Domain Join** | *Joining Windows 10/11 to Domain* | Coming soon |
-| **03. Users & OUs** | *Setting up users, groups, and permissions* | Coming soon |
-| **04. Group Policy** | *Configuring GPOs and security rules* | Coming soon |
-
+| Step | Topic / Module | Description & Breakdown | Notes (ENG / TR) | TikTok Clip |
+| :---: | :--- | :--- | :---: | :---: |
+| **00** | **Server IP & Network** | Static IP, Subnet Mask, Default Gateway, and DNS Loopback (`127.0.0.1`) setup[cite: 1, 2]. | [English](./00-server-ip-setup/server-ip-setup-eng.md) / [Türkçe](./00-server-ip-setup/server-ip-setup-tr.md) | [Watch 🎬](https://www.tiktok.com/@cozyxss) |
+| **01** | **Hostname & Prep** | Server renaming (`DC01`), updates, and initial readiness checks. | *In Progress 🔄* | Coming Soon |
+| **02** | **AD DS Role Setup** | Active Directory Domain Services role installation via Server Manager. | *In Progress 🔄* | Coming Soon |
+| **03** | **DC Promotion** | Promoting to Domain Controller, creating Forest (`medipolis.local`), DSRM password setup, and `SYSVOL` checks[cite: 1]. | *In Progress 🔄* | Coming Soon |
+| **04** | **DNS & DHCP Config** | Forward/Reverse Lookup Zones, DHCP Scope (`192.168.10.X`), and DHCP Options (Router/DNS). | *Upcoming ⏳* | Coming Soon |
+| **05** | **Client Prep & Network** | Windows 10/11 (`CLIENT01`) IP/DNS targeting and reachability testing (`nslookup` / `ping medipolis.local`)[cite: 1, 2]. | *Upcoming ⏳* | Coming Soon |
+| **06** | **Client Domain Join** | Joining `CLIENT01` to `medipolis.local` domain and credentials verification[cite: 1]. | *Upcoming ⏳* | Coming Soon |
+| **07** | **OU Hierarchy (AGDLP)** | Departmental Organizational Units architecture (`IT`, `HR`, `Finance`, `Computers`). | *Upcoming ⏳* | Coming Soon |
+| **08** | **Users & RBAC Groups** | User creation, Role-Based Access Control (RBAC), and Security Groups (`SG_IT_Admins`). | *Upcoming ⏳* | Coming Soon |
+| **09** | **Domain Login Test** | First domain user logon on client machine and local vs. domain profile checks. | *Upcoming ⏳* | Coming Soon |
+| **10** | **Group Policy (GPO)** | GPMC rules: Desktop wallpaper enforcement, password policies, and screen saver lockouts. | *Upcoming ⏳* | Coming Soon |
+| **11** | **Mapped Drives & Shares** | Share & NTFS permissions setup with automated drive mapping (`Z:\`) via GPO Preferences. | *Upcoming ⏳* | Coming Soon |
+| **12** | **LAPS Integration** | Implementing Local Administrator Password Solution to dynamically rotate local admin passwords on endpoints. | *Upcoming ⏳* | Coming Soon |
+| **13** | **AD Recycle Bin** | Enabling Active Directory Recycle Bin and demonstrating object restoration. | *Upcoming ⏳* | Coming Soon |
+| **14** | **Secondary DC & FSMO** | Adding a secondary DC (`DC02`), checking replication status (`repadmin`), and understanding FSMO roles. | *Upcoming ⏳* | Coming Soon |
 ---
 
 ## ⚡ PowerShell & Automation *(Planned)*
