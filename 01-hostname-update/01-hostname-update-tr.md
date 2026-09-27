@@ -29,6 +29,7 @@ Bu sunucumuz **Dunder Mifflin** ortamının birincil **Domain Controller**'ı ol
 4. **Computer name** alanına **DC01** yazılarak **OK** butonuna basılır.
 5. Değişikliğin uygulanması için sunucu yeniden başlatılır (Restart).
 
+![System Properties Change](../images/01-hostname-update-2.png)
 ---
 
 ### Yöntem 2: PowerShell İle (Hızlı Yöntem)
@@ -38,7 +39,10 @@ Yönetici haklarıyla açılan PowerShell terminalinde tek bir komut çalıştı
 Rename-Computer -NewName "DC01" -Restart
 ```
 
-## Değişikliğin Doğrulanması
+## 🔍 Değişikliğin Doğrulanması
+Sunucu yeniden başladıktan sonra PowerShell veya CMD terminalinde aşağıdaki komut çalıştırılarak yeni ismin geçerli olduğu doğrulanır:
+
 ```powershell
 hostname
 ```
+![System Properties Change](../images/01-hostname-update-3.png)
