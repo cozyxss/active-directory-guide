@@ -53,4 +53,4 @@ Once the basic lab is up, I'll be adding custom PowerShell scripts here to autom
 
 - 🎵 **TikTok:** [tiktok.com/@cozyxss](https://www.tiktok.com/@cozyxss) (Bite-sized study clips & notes)
 - ✍️ **Medium:** [medium.com/@cozyxss](https://medium.com/@cozyxss) (Detailed lab walkthroughs)
-- 💼 **LinkedIn:** [linkedin.com/in/cozyxss](https://linkedin.com/in/bbetulkaya) (Career & finished projects)
+- 💼 **LinkedIn:** [linkedin.com/in/bbetulkaya](https://linkedin.com/in/bbetulkaya) (Career & finished projects)
