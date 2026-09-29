@@ -27,7 +27,7 @@ Bu repo benim öğrenme sürecimi paylaştığım açık not defterimdir:
 | Adım | Konu / Modül | İçerik & Açıklama | Notlar (ENG / TR) | TikTok Videosu |
 | :---: | :--- | :--- | :---: | :---: |
 | **00** | **Server IP Ayarları** | Statik IP, Subnet, Gateway ve DNS Loopback (`127.0.0.1`) kurulumu. | [English](./00-server-ip-setup/server-ip-setup-eng.md) / [Türkçe](./00-server-ip-setup/server-ip-setup-tr.md) | [İzle 🎬](https://www.tiktok.com/@cozyxss/video/7688731015560334613?is_from_webapp=1&sender_device=pc) |
-| **01** | **Hostname & Prep** | Sunucu adını `DC01` yapma, güncellemeler ve ilk hazırlıklar. |[English](./01-hostname-update/01-hostname-update-eng.md) / [Türkçe](./01-hostname-update/01-hostname-update-tr.md) | Yakında |
+| **01** | **Hostname & Prep** | Sunucu adını `DC01` yapma, güncellemeler ve ilk hazırlıklar. |[English](./01-hostname-update/01-hostname-update-eng.md) / [Türkçe](./01-hostname-update/01-hostname-update-tr.md) | [İzle 🎬](https://www.tiktok.com/@cozyxss/video/7690963596574018822) |
 | **02** | **AD DS Kurulumu** | Active Directory Domain Services rolünün Server Manager ile yüklenmesi. | *Hazırlanıyor... 🔄* | Yakında |
 | **03** | **DC Promotion** | Yeni Forest (`medipolis.local`) oluşturma, DSRM şifresi ve SYSVOL kontrolleri. | *Hazırlanıyor... 🔄* | Yakında |
 | **04** | **DNS & DHCP Setup** | Forward/Reverse Lookup Zone, DHCP Scope (`192.168.10.X`) ve Option ayarları. | *Planlanıyor ⏳* | Yakında |
