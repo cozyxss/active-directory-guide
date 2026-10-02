@@ -17,7 +17,7 @@ This repo is my open notebook where I share:
 ## 🧪 Current Lab Setup
 - **Hypervisor:** VirtualBox
 - **Domain Controller:** Windows Server 2022 (`DC01`)
-- **Domain:** `medipolis.local`
+- **Domain:** `dundermifflin.local`
 - **Clients:** Windows 10/11 (`CLIENT01`)
 
 ---
@@ -29,10 +29,10 @@ This repo is my open notebook where I share:
 | **00** | **Server IP & Network** | Static IP, Subnet Mask, Default Gateway, and DNS Loopback (`127.0.0.1`) setup[cite: 1, 2]. | [English](./00-server-ip-setup/server-ip-setup-eng.md) / [Türkçe](./00-server-ip-setup/server-ip-setup-tr.md) | [Watch 🎬](https://www.tiktok.com/@cozyxss/video/7688731015560334613?is_from_webapp=1&sender_device=pc) |
 | **01** | **Hostname & Prep** | Server renaming (`DC01`), updates, and initial readiness checks. | [English](./01-hostname-update/01-hostname-update-eng.md) / [Türkçe](./01-hostname-update/01-hostname-update-tr.md)  | [Watch 🎬](https://www.tiktok.com/@cozyxss/video/7690963596574018822) |
 | **02** | **AD DS Role Setup** | Active Directory Domain Services role installation via Server Manager. | [English](./02-ad-ds-role-setup/02-ad-ds-role-setup-eng.md) / [Türkçe](./02-ad-ds-role-setup/02-ad-ds-role-setup-tr.md) | Coming Soon |
-| **03** | **DC Promotion** | Promoting to Domain Controller, creating Forest (`medipolis.local`), DSRM password setup, and `SYSVOL` checks[cite: 1]. | *In Progress 🔄* | Coming Soon |
+| **03** | **DC Promotion** | Promoting to Domain Controller, creating Forest (`dundermifflin.local`), DSRM password setup, and `SYSVOL` checks. | [English](./03-dc-promotion/03-dc-promotion-eng.md) / [Türkçe](./03-dc-promotion/03-dc-promotion-tr.md) | Coming Soon |
 | **04** | **DNS & DHCP Config** | Forward/Reverse Lookup Zones, DHCP Scope (`192.168.10.X`), and DHCP Options (Router/DNS). | *Upcoming ⏳* | Coming Soon |
-| **05** | **Client Prep & Network** | Windows 10/11 (`CLIENT01`) IP/DNS targeting and reachability testing (`nslookup` / `ping medipolis.local`)[cite: 1, 2]. | *Upcoming ⏳* | Coming Soon |
-| **06** | **Client Domain Join** | Joining `CLIENT01` to `medipolis.local` domain and credentials verification[cite: 1]. | *Upcoming ⏳* | Coming Soon |
+| **05** | **Client Prep & Network** | Windows 10/11 (`CLIENT01`) IP/DNS targeting and reachability testing (`nslookup` / `ping dundermifflin.local`). | *Upcoming ⏳* | Coming Soon |
+| **06** | **Client Domain Join** | Joining `CLIENT01` to `dundermifflin.local` domain and credentials verification. | *Upcoming ⏳* | Coming Soon |
 | **07** | **OU Hierarchy (AGDLP)** | Departmental Organizational Units architecture (`IT`, `HR`, `Finance`, `Computers`). | *Upcoming ⏳* | Coming Soon |
 | **08** | **Users & RBAC Groups** | User creation, Role-Based Access Control (RBAC), and Security Groups (`SG_IT_Admins`). | *Upcoming ⏳* | Coming Soon |
 | **09** | **Domain Login Test** | First domain user logon on client machine and local vs. domain profile checks. | *Upcoming ⏳* | Coming Soon |
