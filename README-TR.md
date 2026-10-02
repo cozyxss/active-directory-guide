@@ -17,7 +17,7 @@ Bu repo benim öğrenme sürecimi paylaştığım açık not defterimdir:
 ## 🧪 Mevcut Lab Kurulumu
 - **Sanallaştırma (Hypervisor):** VirtualBox
 - **Domain Controller:** Windows Server 2022 (`DC01`)
-- **Domain (Alan Adı):** `medipolis.local`
+- **Domain (Alan Adı):** `dundermifflin.local`
 - **İstemciler (Clients):** Windows 10/11 (`CLIENT01`)
 
 ---
@@ -29,7 +29,7 @@ Bu repo benim öğrenme sürecimi paylaştığım açık not defterimdir:
 | **00** | **Server IP Ayarları** | Statik IP, Subnet, Gateway ve DNS Loopback (`127.0.0.1`) kurulumu. | [English](./00-server-ip-setup/server-ip-setup-eng.md) / [Türkçe](./00-server-ip-setup/server-ip-setup-tr.md) | [İzle 🎬](https://www.tiktok.com/@cozyxss/video/7688731015560334613?is_from_webapp=1&sender_device=pc) |
 | **01** | **Hostname & Prep** | Sunucu adını `DC01` yapma, güncellemeler ve ilk hazırlıklar. |[English](./01-hostname-update/01-hostname-update-eng.md) / [Türkçe](./01-hostname-update/01-hostname-update-tr.md) | [İzle 🎬](https://www.tiktok.com/@cozyxss/video/7690963596574018822) |
 | **02** | **AD DS Kurulumu** | Active Directory Domain Services rolünün Server Manager ile yüklenmesi. | [English](./02-ad-ds-role-setup/02-ad-ds-role-setup-eng.md) / [Türkçe](./02-ad-ds-role-setup/02-ad-ds-role-setup-tr.md)  | Yakında |
-| **03** | **DC Promotion** | Yeni Forest (`medipolis.local`) oluşturma, DSRM şifresi ve SYSVOL kontrolleri. | *Hazırlanıyor... 🔄* | Yakında |
+| **03** | **DC Promotion** | Yeni Forest (`dundermifflin.local`) oluşturma, DSRM şifresi ve SYSVOL kontrolleri. | [English](./03-dc-promotion/03-dc-promotion-eng.md) / [Türkçe](./03-dc-promotion/03-dc-promotion-tr.md) | Yakında |
 | **04** | **DNS & DHCP Setup** | Forward/Reverse Lookup Zone, DHCP Scope (`192.168.10.X`) ve Option ayarları. | *Planlanıyor ⏳* | Yakında |
 | **05** | **İstemci Hazırlığı** | Windows 10/11 IP/DNS yönlendirmesi ve `nslookup` / `ping` testleri. | *Planlanıyor ⏳* | Yakında |
 | **06** | **Domain Join** | `CLIENT01` istemcisini domaine ekleme ve doğrulama adımları. | *Planlanıyor ⏳* | Yakında |
