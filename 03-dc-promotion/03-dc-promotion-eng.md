@@ -48,6 +48,8 @@ During promotion, 3 critical system structures are generated:
 4. Confirm NetBIOS domain name (`DUNDERMIFFLIN`) and default file paths (`NTDS`, `SYSVOL`).
 5. Complete the Prerequisites Check and click **Install**. The server will reboot automatically upon completion.
 
+![Server Manager DC Promotion](../images/03-dc-promotion-1.png)
+
 ---
 
 ### Method 2: Promotion via PowerShell (Fast Method)
@@ -75,3 +77,4 @@ Once restarted, verify logon screen displays DUNDERMIFFLIN\Administrator. Open P
  ```powershell
 Get-ADDomain
 ```
+![Server Manager DC Promotion](../images/03-dc-promotion-2.png)
