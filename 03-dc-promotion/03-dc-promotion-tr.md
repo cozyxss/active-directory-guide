@@ -48,7 +48,8 @@ AD DS yükseltme işlemi sırasında sistem tarafından kritik 3 yapı oluşturu
 4. NetBIOS alanı (`DUNDERMIFFLIN`) ve veritabanı yolları (`C:\Windows\NTDS`, `SYSVOL`) varsayılan haliyle onaylanır.
 5. Ön gereksinim kontrolü (Prerequisites Check) sonrasında **Install** butonuna basılır ve işlem bitince sunucu otomatik olarak yeniden başlar.
 
-![DC Promotion](images/03-dc-promotion-1.png)
+![Server Manager DC Promotion](../images/03-dc-promotion-1.png)
+
 ---
 
 ### Yöntem 2: PowerShell ile Yükseltme (Hızlı Yöntem)
@@ -76,4 +77,4 @@ Sunucu yeniden başladıktan sonra oturum açma ekranında DUNDERMIFFLIN\Adminis
 ```powershell
 Get-ADDomain
 ```
-![DC Promotion](images/03-dc-promotion-2.png)
+![Server Manager DC Promotion](../images/03-dc-promotion-2.png)
